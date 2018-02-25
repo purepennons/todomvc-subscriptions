@@ -1,4 +1,4 @@
-FROM node:9.3.0-slim@sha256:eaab505be9cc24c7eacefa986c5c6c3b0f82a3084d2dcb6140166a8c23a2fc98
+FROM node:9.6.1-slim@sha256:8bec42e19402dcb8830f4d4ddc794362bb3700b4160bb49644003edddd452ea5
 WORKDIR /app
 RUN npm install sqlite3 --save
 COPY pkg/server-linux .
